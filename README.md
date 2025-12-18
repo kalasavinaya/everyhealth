@@ -69,7 +69,7 @@ The appliation will load with two tabs
 
 ### GET and POST Samples
 
-GET `http://localhost:5000/logs?severity=error&from=2025-01-01&to=2025-10-05`
+GET `http://localhost:5000/logs?severity=error&from=2025-01-01&to=2025-10-05&page=1&limit=10`
 
 POST request JSON
 
