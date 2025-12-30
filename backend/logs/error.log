@@ -1,0 +1,49 @@
+2025-12-29T17:34:41.839Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:34:41.886Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:32.411Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"1bfb81d04e7ec9b89683737333f4e45863f02b7b08763e69a24929af7917bf19"}}
+2025-12-29T17:37:32.426Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-05-04T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"d34922854484a8ea0c2010de6a653f258112cbbf51c89ff7b791f98947e3d631"}}
+2025-12-29T17:37:32.436Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-06-05T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"7a276913450984fee44d5957ed8a08d8a461dba1ef578ef6830467f2fd69b57a"}}
+2025-12-29T17:37:36.469Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:36.473Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:38.820Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:38.881Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:40.232Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:40.241Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:07.915Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:07.949Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:08.838Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:08.850Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:15.144Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"1bfb81d04e7ec9b89683737333f4e45863f02b7b08763e69a24929af7917bf19"}}
+2025-12-29T17:38:15.160Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-05-04T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"d34922854484a8ea0c2010de6a653f258112cbbf51c89ff7b791f98947e3d631"}}
+2025-12-29T17:38:15.167Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-06-05T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"7a276913450984fee44d5957ed8a08d8a461dba1ef578ef6830467f2fd69b57a"}}
+2025-12-29T17:38:18.879Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:18.886Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:22.246Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:22.251Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:38.277Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:38.284Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:42:24.101Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:42:24.106Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:42:32.569Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"1bfb81d04e7ec9b89683737333f4e45863f02b7b08763e69a24929af7917bf19"}}
+2025-12-29T17:42:32.590Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-05-04T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"d34922854484a8ea0c2010de6a653f258112cbbf51c89ff7b791f98947e3d631"}}
+2025-12-29T17:42:32.600Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-06-05T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"7a276913450984fee44d5957ed8a08d8a461dba1ef578ef6830467f2fd69b57a"}}
+2025-12-29T17:42:35.245Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:42:35.250Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:06:29.420Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:06:29.517Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:06:33.474Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:06:33.480Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:19.788Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:19.797Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:33.432Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:33.535Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:36.423Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:36.453Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:17:31.681Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:17:31.794Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:20:55.184Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:20:55.300Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:27:56.572Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:27:56.668Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:28:02.844Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:28:02.852Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 

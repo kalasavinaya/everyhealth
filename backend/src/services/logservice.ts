@@ -1,7 +1,8 @@
 import sqlite3 from "sqlite3";
 import { open }  from "sqlite";
 import { createHash } from "node:crypto";
-import { CREATE_LOGS_TABLE, INSERT_LOG, SELECT_LOGS } from "../queries/queries.js";
+import { CREATE_LOGS_TABLE, INSERT_LOG, SELECT_LOGS,COUNT_LOGS } from "../queries/queries.js";
+import { logger } from "./logger.js";
 
 ///Data base connections/////
 
@@ -20,27 +21,32 @@ export async function initDb(){
 
 ///fetch the data from db/////
 
-export async function fetchLogs(filters: { severity?: string; from?: string; to?: string;page?:number;limit?:number }) {
+export async function fetchLogs(filters: { severity?: string; from?: string; to?: string; page?: number; limit?: number }) {
   const db = await connectDb();
-  
-  const params: any[] = [];
+
   const page = filters.page ?? 1;
   const limit = filters.limit ?? 5;
   const offset = (page - 1) * limit;
-  let query = SELECT_LOGS(filters);
 
-  if (filters.severity) params.push(filters.severity);
-  if (filters.from) params.push(filters.from);
-  if (filters.to) params.push(filters.to);
+  // Params for filters only
+  const filterParams: any[] = [];
+  if (filters.severity) filterParams.push(filters.severity);
+  if (filters.from) filterParams.push(filters.from);
+  if (filters.to) filterParams.push(filters.to);
 
-  
-   params.push(limit, offset);
-  const logs = await db.all(query, params);
-  //console.log(query);
-//console.log(params);
+  // Count total
+  const totalRow = await db.get(COUNT_LOGS(filters), filterParams);
+  const total = totalRow?.total_count ?? 0;
+
+  // Logs with pagination
+  const logs = await db.all(SELECT_LOGS(filters), [...filterParams, limit, offset]);
+
   await db.close();
-  return logs;
+  logger.info(`Fetched ${total} logs`, { filters });
+
+  return { logs, total };
 }
+
 ///fetch the data from db/////
 
 ///save the data to db/////
@@ -78,6 +84,21 @@ export async function saveLogs(logs: any[]) {
       log.message,
       log.log_hash
     );
+     // Log based on severity
+    switch (log.severity.toLowerCase()) {
+      case "info":
+        logger.info(log.message, { log });
+        break;
+      case "warning":
+        logger.warn(log.message, { log });
+        break;
+      case "error":
+        logger.error(log.message, { log });
+        break;
+      default:
+        logger.info(log.message, { log });
+        break;
+    }
   }
 
   await db.close();

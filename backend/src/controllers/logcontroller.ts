@@ -1,7 +1,7 @@
 import type {Request ,Response } from "express";
 import { saveLogs } from "../services/logservice.js";
 import { fetchLogs } from "../services/logservice.js";
-
+import { logger } from "../services/logger.js";
 interface LogEntry {
   timestamp: string;
   source: string;
@@ -24,9 +24,16 @@ function isValidLog(log: any): log is LogEntry {
 
 ///function to fetch the data///////////
 export async function getLogs(req: Request, res: Response) {
+  try{
   const { severity, from, to, page = "1", limit = "5"} = req.query;
   const logs = await fetchLogs({ severity: severity as string, from: from as string, to: to as string ,page: Number(page),limit: Number(limit)});
-  res.json(logs);
+  logger.info(`Fetched ${logs.total} logs`);
+  res.status(200).json(logs);
+  } catch (err) {
+    logger.error(`Error fetching logs: ${(err as Error).message}`);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+
 }
 ///function to fetch the data///////////
 
@@ -35,12 +42,14 @@ export async function uploadLogs(req: Request, res: Response) {
   const json = req.body;
 
   if (!Array.isArray(json)) {
+     logger.warn("Upload failed: body is not an array");
     return res.status(400).json({ error: "JSON must be an array of logs" });
   }
 
   try {
     const validLogs = json.filter(isValidLog);
     const insertedLogs = await saveLogs(validLogs); // <-- use saveLogs from service
+    logger.info(`Saved ${insertedLogs.length} logs`);
 
     res.json({
       message: `${insertedLogs.length} logs processed successfully`,

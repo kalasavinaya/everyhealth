@@ -14,12 +14,21 @@ export const INSERT_LOG = `
   INSERT OR IGNORE INTO logs (timestamp, source, severity, message, log_hash)
   VALUES (?, ?, ?, ?, ?)`;
 
-export function SELECT_LOGS(filters: { severity?: string; from?: string; to?: string; page?: number; limit?: number}) {
+export function SELECT_LOGS(filters: { severity?: string; from?: string; to?: string }) {
   let query = "SELECT id, timestamp, source, severity, message FROM logs WHERE 1=1";
   if (filters.severity) query += " AND severity = ?";
   if (filters.from) query += " AND timestamp >= ?";
   if (filters.to) query += " AND timestamp <= ?";
-
-  query += `  ORDER BY timestamp DESC  LIMIT ? OFFSET ?  `;
+  query += " ORDER BY timestamp DESC LIMIT ? OFFSET ?";
   return query;
 }
+
+export function COUNT_LOGS(filters: { severity?: string; from?: string; to?: string }) {
+  let query = "SELECT COUNT(*) as total_count FROM logs WHERE 1=1";
+  if (filters.severity) query += " AND severity = ?";
+  if (filters.from) query += " AND timestamp >= ?";
+  if (filters.to) query += " AND timestamp <= ?";
+  return query;
+}
+
+

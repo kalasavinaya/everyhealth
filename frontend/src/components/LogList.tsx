@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { API_BASE_URL } from "../config";
 
-
+// Log item type
 interface LogEntry {
   id: number;
   timestamp: string;
@@ -11,37 +11,53 @@ interface LogEntry {
   message: string;
 }
 
+// API response type
+interface LogResponse {
+  logs: LogEntry[];
+  total: number;
+}
+
 const LogList: React.FC = () => {
-  const [logs, setLogs]= useState<LogEntry[]>([]);
-  const [severity, setSeverity]= useState<string>("");
-  const [fromDate, setFromDate]= useState<string>("");
-  const [toDate, setToDate]= useState<string>("");
+  const [logs, setLogs] = useState<LogEntry[]>([]);
+  const [total, setTotal] = useState<number>(0);
+  const [severity, setSeverity] = useState<string>("");
+  const [fromDate, setFromDate] = useState<string>("");
+  const [toDate, setToDate] = useState<string>("");
   const [page, setPage] = useState<number>(1);
   const [limit] = useState<number>(5);
   const [loading, setLoading] = useState<boolean>(false);
+
   const fetchLogs = async (pageNumber: number = 1) => {
+    setLoading(true);
     try {
       let url = `${API_BASE_URL}/logs?`;
-      if (severity) url+=`severity=${severity}&`;
-      if (fromDate) url+=`from=${fromDate}&`;
-      if (toDate) url+=`to=${toDate}&`;
+      if (severity) url += `severity=${severity}&`;
+      if (fromDate) url += `from=${fromDate}&`;
+      if (toDate) url += `to=${toDate}&`;
       url += `page=${pageNumber}&limit=${limit}`;
-      const res = await axios.get<LogEntry[]>(url);
-      setLogs(res.data);
+
+      const res = await axios.get<LogResponse>(url);
+
+      setLogs(res.data.logs);   // logs for current page
+      setTotal(res.data.total); // total logs matching filters
       setPage(pageNumber);
     } catch (err) {
       console.error(err);
+    } finally {
+      setLoading(false);
     }
   };
 
   useEffect(() => {
-    fetchLogs();
+    fetchLogs(1);
   }, [severity, fromDate, toDate]);
+
+  const totalPages = Math.ceil(total / limit);
 
   return (
     <div>
       <div className="filter-bar">
-        <label  className="total-label" ><b>Total ({logs.length})</b></label> 
+        <label className="total-label"><b>Total ({total})</b></label>
         <label>
           Severity
           <select className="global-select" value={severity} onChange={e => setSeverity(e.target.value)}>
@@ -52,18 +68,19 @@ const LogList: React.FC = () => {
             <option value="other">Other</option>
           </select>
         </label>
-        <label >
+        <label>
           From
-          <input type="date"  className="global-date"  value={fromDate} onChange={e => setFromDate(e.target.value)} />
+          <input type="date" className="global-date" value={fromDate} onChange={e => setFromDate(e.target.value)} />
         </label>
         <label>
           To
-          <input type="date"  className="global-date"  value={toDate} onChange={e => setToDate(e.target.value)} />
+          <input type="date" className="global-date" value={toDate} onChange={e => setToDate(e.target.value)} />
         </label>
-        <button className="global-btn fix" onClick={() => fetchLogs(1)} >Fetch Logs</button>
+        <button className="global-btn fix" onClick={() => fetchLogs(1)}>Fetch Logs</button>
       </div>
-      <table  className="logs-table" >
-        <thead >
+
+      <table className="logs-table">
+        <thead>
           <tr>
             <th>ID</th>
             <th>Timestamp</th>
@@ -84,35 +101,30 @@ const LogList: React.FC = () => {
           ))}
         </tbody>
       </table>
+
       <div className="pagination-bar">
-  <button
-    className="global-btn"
-    disabled={page === 1 || loading}
-    onClick={() => fetchLogs(page - 1)}
-  >
-    Previous
-  </button>
+        <button
+          className="global-btn"
+          disabled={page === 1 || loading}
+          onClick={() => fetchLogs(page - 1)}
+        >
+          Previous
+        </button>
 
-  <span style={{ margin: "0 10px" }}>
-    Page {page}
-  </span>
+        <span style={{ margin: "0 10px" }}>
+          Page {page} of {totalPages}
+        </span>
 
-  <button
-    className="global-btn"
-    disabled={logs.length < limit || loading}
-    onClick={() => fetchLogs(page + 1)}
-  >
-    Next
-  </button>
-</div>
+        <button
+          className="global-btn"
+          disabled={page === totalPages || loading}
+          onClick={() => fetchLogs(page + 1)}
+        >
+          Next
+        </button>
+      </div>
     </div>
-    
   );
 };
 
 export default LogList;
-
-//border={1} cellPadding={5} style={{ width: "100%", borderCollapse: "collapse" }}
-//border={1} style={{  marginTop:"20px" ,width: "100%", borderCollapse: "collapse", backgroundColor:"#f0f0f0"}}
-
-//style={{ backgroundColor: "#cce5ff" }}

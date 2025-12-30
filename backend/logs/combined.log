@@ -1,0 +1,332 @@
+2025-12-29T16:26:54.954Z [[32minfo[39m]: Test log {"log":{"timestamp":"2025-12-29T16:26:54.942Z","severity":"info","message":"Test log","log_hash":"197449834f7d36f33e81d4d68fbd028326c812eccad7c75d0496f6fdafdd1922"}}
+2025-12-29T16:26:54.961Z [[32minfo[39m]: Fetched 4 logs {"filters":{"severity":"info"}}
+2025-12-29T16:31:51.794Z [[33mwarn[39m]: Upload failed: body is not an array 
+2025-12-29T16:33:36.848Z [[33mwarn[39m]: Upload failed: body is not an array 
+2025-12-29T16:34:24.372Z [[33mwarn[39m]: Upload failed: body is not an array 
+2025-12-29T16:34:24.384Z [[32minfo[39m]: Test log {"log":{"timestamp":"2025-12-29T16:34:24.372Z","severity":"info","message":"Test log","log_hash":"0cfb5f4f932a51906a7dfcb0ceaf58843f79f312530473705e739dc6ba9c07ac"}}
+2025-12-29T16:34:24.391Z [[32minfo[39m]: Fetched 5 logs {"filters":{"severity":"info"}}
+2025-12-29T16:39:44.435Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:39:44.454Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:39:44.473Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:39:44.474Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:39:51.032Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:39:51.033Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:39:51.037Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:39:51.038Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:39:59.228Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T16:39:59.229Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:40:00.358Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T16:40:00.359Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:40:02.187Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T16:40:02.188Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:40:06.593Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:40:06.593Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:40:06.597Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:40:06.598Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:40:14.456Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:40:14.457Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:40:14.461Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:40:14.462Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:42:35.516Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:42:35.517Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T16:42:35.524Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T16:42:35.526Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:18:34.156Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:18:34.157Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:19:17.137Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:19:17.138Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:19:17.142Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:19:17.143Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:19:33.126Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:19:33.127Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:19:33.131Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:19:33.131Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:21:47.133Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:21:47.134Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:21:47.139Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:21:47.140Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:24:22.131Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:24:22.132Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:24:22.136Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:24:22.137Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:24:38.996Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:24:38.997Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:24:39.002Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:24:39.003Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:24:39.186Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:24:39.188Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:24:39.203Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:24:39.207Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:31:49.134Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:31:49.137Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:31:49.168Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:31:49.172Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:31:52.668Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:31:52.669Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:31:52.676Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:31:52.677Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:32:01.952Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:32:01.953Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:32:01.958Z [[32minfo[39m]: Fetched 5 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T17:32:01.959Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T17:34:41.839Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:34:41.886Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:32.411Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"1bfb81d04e7ec9b89683737333f4e45863f02b7b08763e69a24929af7917bf19"}}
+2025-12-29T17:37:32.418Z [[32minfo[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"info","message":"User XYZ failed medication eligibility check","log_hash":"43e5cfc0891355bec0f40da505d5fc0d3ec83e3cf2a83b013624af87e4dce11d"}}
+2025-12-29T17:37:32.426Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-05-04T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"d34922854484a8ea0c2010de6a653f258112cbbf51c89ff7b791f98947e3d631"}}
+2025-12-29T17:37:32.436Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-06-05T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"7a276913450984fee44d5957ed8a08d8a461dba1ef578ef6830467f2fd69b57a"}}
+2025-12-29T17:37:32.445Z [[33mwarn[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-08-03T14:25:43Z","source":"medication-service","severity":"warning","message":"User XYZ failed medication eligibility check","log_hash":"f8a2393992ca3a604039a4a0f174e47ff2cda0750d1d9cbb210c7bfe8fffa814"}}
+2025-12-29T17:37:32.453Z [[33mwarn[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-02-15T14:25:43Z","source":"medication-service","severity":"warning","message":"User XYZ failed medication eligibility check","log_hash":"680be235d262e700dd86c0768c6fe32a7e503dff396e6c6177448a1516990bb7"}}
+2025-12-29T17:37:32.455Z [[32minfo[39m]: Saved 6 logs 
+2025-12-29T17:37:36.469Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:36.473Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:38.820Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:38.881Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:40.232Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:37:40.241Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:07.915Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:07.949Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:08.838Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:08.850Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:15.144Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"1bfb81d04e7ec9b89683737333f4e45863f02b7b08763e69a24929af7917bf19"}}
+2025-12-29T17:38:15.152Z [[32minfo[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"info","message":"User XYZ failed medication eligibility check","log_hash":"43e5cfc0891355bec0f40da505d5fc0d3ec83e3cf2a83b013624af87e4dce11d"}}
+2025-12-29T17:38:15.160Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-05-04T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"d34922854484a8ea0c2010de6a653f258112cbbf51c89ff7b791f98947e3d631"}}
+2025-12-29T17:38:15.167Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-06-05T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"7a276913450984fee44d5957ed8a08d8a461dba1ef578ef6830467f2fd69b57a"}}
+2025-12-29T17:38:15.175Z [[33mwarn[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-08-03T14:25:43Z","source":"medication-service","severity":"warning","message":"User XYZ failed medication eligibility check","log_hash":"f8a2393992ca3a604039a4a0f174e47ff2cda0750d1d9cbb210c7bfe8fffa814"}}
+2025-12-29T17:38:15.184Z [[33mwarn[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-02-15T14:25:43Z","source":"medication-service","severity":"warning","message":"User XYZ failed medication eligibility check","log_hash":"680be235d262e700dd86c0768c6fe32a7e503dff396e6c6177448a1516990bb7"}}
+2025-12-29T17:38:15.185Z [[32minfo[39m]: Saved 6 logs 
+2025-12-29T17:38:18.879Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:18.886Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:22.246Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:22.251Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:38.277Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:38:38.284Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:42:24.101Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:42:24.106Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:42:32.569Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"1bfb81d04e7ec9b89683737333f4e45863f02b7b08763e69a24929af7917bf19"}}
+2025-12-29T17:42:32.579Z [[32minfo[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-03-01T14:25:43Z","source":"medication-service","severity":"info","message":"User XYZ failed medication eligibility check","log_hash":"43e5cfc0891355bec0f40da505d5fc0d3ec83e3cf2a83b013624af87e4dce11d"}}
+2025-12-29T17:42:32.590Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-05-04T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"d34922854484a8ea0c2010de6a653f258112cbbf51c89ff7b791f98947e3d631"}}
+2025-12-29T17:42:32.600Z [[31merror[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-06-05T14:25:43Z","source":"medication-service","severity":"error","message":"User XYZ failed medication eligibility check","log_hash":"7a276913450984fee44d5957ed8a08d8a461dba1ef578ef6830467f2fd69b57a"}}
+2025-12-29T17:42:32.612Z [[33mwarn[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-08-03T14:25:43Z","source":"medication-service","severity":"warning","message":"User XYZ failed medication eligibility check","log_hash":"f8a2393992ca3a604039a4a0f174e47ff2cda0750d1d9cbb210c7bfe8fffa814"}}
+2025-12-29T17:42:32.621Z [[33mwarn[39m]: User XYZ failed medication eligibility check {"log":{"timestamp":"2025-02-15T14:25:43Z","source":"medication-service","severity":"warning","message":"User XYZ failed medication eligibility check","log_hash":"680be235d262e700dd86c0768c6fe32a7e503dff396e6c6177448a1516990bb7"}}
+2025-12-29T17:42:32.622Z [[32minfo[39m]: Saved 6 logs 
+2025-12-29T17:42:35.245Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T17:42:35.250Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:06:29.420Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:06:29.517Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:06:33.474Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:06:33.480Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:19.788Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:19.797Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:33.432Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:33.535Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:36.423Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:15:36.453Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:17:31.681Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:17:31.794Z [[31merror[39m]: Error fetching logs: SQLITE_RANGE: column index out of range 
+2025-12-29T18:20:55.184Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:20:55.300Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:27:56.572Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:27:56.668Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:28:02.844Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:28:02.852Z [[31merror[39m]: Error fetching logs: SQLITE_ERROR: near "LIMIT": syntax error 
+2025-12-29T18:29:05.354Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:29:05.423Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:05.474Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:29:05.477Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:10.883Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:29:10.887Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:12.000Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:29:12.005Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:12.917Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":4,"limit":5}}
+2025-12-29T18:29:12.920Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:14.746Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:29:14.748Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:15.992Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:29:15.995Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:18.828Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:29:18.831Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:18.859Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:29:18.862Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:22.191Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:29:22.193Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:22.963Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:29:22.967Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:24.298Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":4,"limit":5}}
+2025-12-29T18:29:24.303Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:25.625Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:29:25.627Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:27.408Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:29:27.411Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:28.604Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:29:28.606Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:31.905Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:29:31.907Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:32.146Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:29:32.150Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:33.072Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":4,"limit":5}}
+2025-12-29T18:29:33.073Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:35.852Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:29:35.853Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:29:35.860Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:29:35.861Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:38:56.587Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:38:56.590Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:38:56.636Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:38:56.643Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:38:59.530Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:38:59.531Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:38:59.538Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:38:59.539Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:39:02.956Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:39:02.958Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:39:02.968Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:39:02.970Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:39:45.447Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:39:45.449Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:39:45.471Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:39:45.473Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:39:50.384Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:39:50.387Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:39:50.396Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:39:50.398Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:39:53.516Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:39:53.520Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:39:53.544Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:39:53.546Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:40:29.520Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:40:29.534Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:40:29.568Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:40:29.570Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:40:30.708Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:40:30.711Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:40:30.721Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:40:30.727Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:40:32.925Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:40:32.926Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:40:32.932Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:40:32.932Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:20.681Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:20.682Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:20.729Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:20.730Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:21.469Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:21.470Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:21.476Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:21.477Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:22.105Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:22.107Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:22.112Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:22.113Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:22.310Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:22.311Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:23.352Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:23.353Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:23.358Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:23.360Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:53.322Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:53.323Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:53.334Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:53.336Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:54.011Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:54.014Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:54.019Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:54.020Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:56.271Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:56.273Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:46:56.279Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:46:56.283Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:44.508Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:49:44.509Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:44.517Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:49:44.518Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:47.884Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:49:47.886Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:48.640Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:49:48.641Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:49.661Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:49:49.662Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:50.125Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:49:50.126Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:51.268Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:49:51.270Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:51.829Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:49:51.831Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:52.847Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":4,"limit":5}}
+2025-12-29T18:49:52.848Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:55.307Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:49:55.310Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:55.316Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:49:55.322Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:57.235Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:49:57.235Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:49:58.220Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:49:58.221Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:50:00.531Z [[32minfo[39m]: Fetched 4 logs {"filters":{"severity":"error","page":1,"limit":5}}
+2025-12-29T18:50:00.532Z [[32minfo[39m]: Fetched 4 logs 
+2025-12-29T18:50:02.732Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:50:02.733Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:50:05.364Z [[32minfo[39m]: Fetched 0 logs {"filters":{"severity":"other","page":1,"limit":5}}
+2025-12-29T18:50:05.365Z [[32minfo[39m]: Fetched 0 logs 
+2025-12-29T18:50:07.593Z [[32minfo[39m]: Fetched 5 logs {"filters":{"severity":"info","page":1,"limit":5}}
+2025-12-29T18:50:07.594Z [[32minfo[39m]: Fetched 5 logs 
+2025-12-29T18:57:31.499Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:57:31.501Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:57:31.507Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:57:31.507Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:57:40.267Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:57:40.269Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:57:41.164Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:57:41.165Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:57:45.977Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:57:45.979Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:57:45.989Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:57:45.990Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:57:50.403Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:57:50.405Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:57:50.415Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:57:50.416Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:58:04.458Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:58:04.459Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:58:04.466Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T18:58:04.467Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:58:10.454Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:58:10.455Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:58:11.505Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T18:58:11.508Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T18:58:14.220Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T18:58:14.221Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:01:51.033Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T19:01:51.034Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:01:51.041Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T19:01:51.042Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:01:55.748Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T19:01:55.750Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:01:55.759Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T19:01:55.760Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:01:56.965Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T19:01:56.968Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:01:58.043Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T19:01:58.046Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:01:59.366Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":4,"limit":5}}
+2025-12-29T19:01:59.368Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:02:01.315Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T19:02:01.326Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:02:03.155Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T19:02:03.158Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T19:02:10.232Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T19:02:10.234Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T21:23:19.601Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T21:23:19.603Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T21:23:19.608Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":1,"limit":5}}
+2025-12-29T21:23:19.608Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T21:23:22.028Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T21:23:22.029Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T21:23:24.033Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T21:23:24.034Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T21:23:24.975Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":4,"limit":5}}
+2025-12-29T21:23:24.975Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T21:23:26.165Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":3,"limit":5}}
+2025-12-29T21:23:26.166Z [[32minfo[39m]: Fetched 18 logs 
+2025-12-29T21:23:27.178Z [[32minfo[39m]: Fetched 18 logs {"filters":{"page":2,"limit":5}}
+2025-12-29T21:23:27.179Z [[32minfo[39m]: Fetched 18 logs 
