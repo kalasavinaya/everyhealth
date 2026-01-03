@@ -136,7 +136,8 @@ input[type="file"]:focus {
 }
 
 .logs-table thead {
-  background-color: #1976d2;
+  /*background-color: #1976d2;*/
+  background-color: #74b4f4;
   color: white;
   position: sticky;
   top: 0;
