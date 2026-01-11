@@ -1,7 +1,7 @@
 import type {Request ,Response } from "express";
 import { saveLogs } from "../services/logservice.js";
 import { fetchLogs } from "../services/logservice.js";
-import { logger } from "../services/logger.js";
+import { logger } from "../utils/logger.js";
 interface LogEntry {
   timestamp: string;
   source: string;
@@ -9,7 +9,7 @@ interface LogEntry {
   message: string;
   patient_id?: string;
 }
-
+///patient_id is not manditory because to handle the log data coming from other sources (application logs,cong,auth etc)
 ///function to verify validte data/////
 
 function isValidLog(log: any): log is LogEntry {

@@ -2,9 +2,11 @@ import sqlite3 from "sqlite3";
 import { open }  from "sqlite";
 import { createHash } from "node:crypto";
 import { CREATE_LOGS_TABLE, INSERT_LOG, SELECT_LOGS,COUNT_LOGS } from "../queries/queries.js";
-import { logger } from "./logger.js";
+import { logger } from "../utils/logger.js";
+import { DatabaseConnection } from "../db/database.js";
 
-///Data base connections/////
+const db = await DatabaseConnection.getConnection();
+/* ///Data base connections/////
 
 export async function connectDb(){
 return open({
@@ -17,12 +19,12 @@ export async function initDb(){
     await db.exec(CREATE_LOGS_TABLE);
     return db;
 }
-///Data base connections/////
+///Data base connections///// */
 
 ///fetch the data from db/////
 
 export async function fetchLogs(filters: { severity?: string; from?: string; to?: string; page?: number; limit?: number }) {
-  const db = await connectDb();
+   const db = await DatabaseConnection.getConnection();
 
   const page = filters.page ?? 1;
   const limit = filters.limit ?? 5;
@@ -41,7 +43,6 @@ export async function fetchLogs(filters: { severity?: string; from?: string; to?
   // Logs with pagination
   const logs = await db.all(SELECT_LOGS(filters), [...filterParams, limit, offset]);
 
-  await db.close();
   logger.info(`Fetched ${total} logs`, { filters });
 
   return { logs, total };
@@ -52,7 +53,7 @@ export async function fetchLogs(filters: { severity?: string; from?: string; to?
 ///save the data to db/////
 
 export async function saveLogs(logs: any[]) {
-  const db = await initDb();
+   const db = await DatabaseConnection.getConnection();
 
   const logsWithId = logs.map(log => {
  
@@ -101,7 +102,6 @@ export async function saveLogs(logs: any[]) {
     }
   }
 
-  await db.close();
   return logsWithId;
 }
 ///save the data to db/////
